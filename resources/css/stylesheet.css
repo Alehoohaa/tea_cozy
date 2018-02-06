@@ -4,10 +4,12 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
 
 }
 header{
   display: flex;
+  flex-wrap: wrap;
   flex-direction:row;
   justify-content: space-between;
   position: fixed;
@@ -25,7 +27,6 @@ header{
 }
 .logo img{
   display: flex;
-  flex-direction: column;
   height:50px;
 }
 header.nav{
@@ -35,6 +36,7 @@ header.nav{
   align-items: center;
 }
 .nav span{
+  display: flex;
   display:inline-block;
   padding: 10px 20px;
   text-decoration: underline;
@@ -47,11 +49,20 @@ header.nav{
 }
 .container{
   width: 1200px;
-  display: flex;
-  margin: 0 auto 80px auto;
+  margin: auto;
   padding-top: 69px;
 }
 .mission{
   background-image: url("../images/background.jpg");
   height: 700px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.our-mission{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+
+
 }

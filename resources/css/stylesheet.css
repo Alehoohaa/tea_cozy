@@ -96,8 +96,6 @@ nav a:hover {
   justify-content: center;
   padding-bottom: 15px;
 }
-.city h2{
-}
 .address{
   opacity: 1;
   background-color: black;
@@ -107,6 +105,16 @@ nav a:hover {
 }
 .address span{
   display: block;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
+}
+#contact{
+  align-items: center;
+}
+h2{
+  padding: 10px;
+}
+footer{
+  padding-left: 20px;
+  text-align: left;
 }
